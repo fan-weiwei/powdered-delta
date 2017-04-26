@@ -20,5 +20,10 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-test:1.1.2" level="project" />
+    <orderEntry type="library" name="org.deeplearning4j:deeplearning4j-core:0.8.0" level="project" />
+    <orderEntry type="library" name="org.nd4j:nd4j-native-platform:0.8.0" level="project" />
+    <orderEntry type="library" name="org.datavec:datavec-api:0.8.0" level="project" />
+    <orderEntry type="library" name="org.slf4j:slf4j-jdk14:1.7.12" level="project" />
+    <orderEntry type="library" name="io.github.microutils:kotlin-logging:1.4.4" level="project" />
   </component>
 </module>
