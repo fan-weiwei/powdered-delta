@@ -1,4 +1,3 @@
-import mu.KotlinLogging
 import org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator
 import org.deeplearning4j.eval.Evaluation
 import org.deeplearning4j.nn.api.OptimizationAlgorithm
@@ -11,11 +10,9 @@ import org.deeplearning4j.nn.weights.WeightInit
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener
 import org.nd4j.linalg.activations.Activation
 import org.nd4j.linalg.lossfunctions.LossFunctions
-import org.slf4j.LoggerFactory
 
 fun main(args: Array<String>) {
 
-    val log = LoggerFactory.getLogger("class name")
     //number of rows and columns in the input pictures
     val numRows = 28
     val numColumns = 28
